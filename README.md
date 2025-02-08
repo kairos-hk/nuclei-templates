@@ -42,18 +42,18 @@ An overview of the nuclei template project, including statistics on unique tags,
 
 |    TAG    | COUNT |    AUTHOR     | COUNT | DIRECTORY  | COUNT | SEVERITY | COUNT | TYPE | COUNT |
 |-----------|-------|---------------|-------|------------|-------|----------|-------|------|-------|
-| cve       |  2604 | dhiyaneshdk   |  1360 | http       |  7723 | info     |  3802 | file |   402 |
-| panel     |  1173 | daffainfo     |   864 | file       |   402 | high     |  1843 | dns  |    25 |
-| wordpress |  1008 | dwisiswant0   |   803 | workflows  |   192 | medium   |  1588 |      |       |
-| exposure  |   971 | pussycat0x    |   447 | network    |   137 | critical |  1083 |      |       |
-| xss       |   919 | ritikchaddha  |   393 | cloud      |   134 | low      |   272 |      |       |
-| wp-plugin |   878 | pikpikcu      |   353 | code       |    81 | unknown  |    41 |      |       |
-| osint     |   805 | princechaddha |   303 | javascript |    61 |          |       |      |       |
-| tech      |   703 | pdteam        |   297 | ssl        |    29 |          |       |      |       |
-| lfi       |   685 | ricardomaia   |   241 | dast       |    25 |          |       |      |       |
-| misconfig |   678 | geeknik       |   231 | dns        |    22 |          |       |      |       |
+| cve       |  2928 | dhiyaneshdk   |  1573 | http       |  8348 | info     |  3996 | file |   404 |
+| panel     |  1256 | daffainfo     |   866 | cloud      |   419 | high     |  2215 | dns  |    25 |
+| wordpress |  1094 | dwisiswant0   |   803 | file       |   404 | medium   |  1883 |      |       |
+| exposure  |  1050 | princechaddha |   570 | workflows  |   192 | critical |  1226 |      |       |
+| xss       |   997 | ritikchaddha  |   528 | code       |   160 | low      |   291 |      |       |
+| wp-plugin |   957 | pussycat0x    |   452 | network    |   140 | unknown  |    43 |      |       |
+| osint     |   807 | pikpikcu      |   352 | javascript |    66 |          |       |      |       |
+| tech      |   753 | pdteam        |   302 | dast       |    40 |          |       |      |       |
+| lfi       |   740 | ricardomaia   |   247 | ssl        |    36 |          |       |      |       |
+| misconfig |   723 | geeknik       |   234 | dns        |    22 |          |       |      |       |
 
-**671 directories, 9126 files**.
+**782 directories, 10167 files**.
 
 </td>
 </tr>

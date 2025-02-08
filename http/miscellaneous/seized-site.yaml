@@ -1,0 +1,30 @@
+id: seized-site
+
+info:
+  name: Seized Site
+  author: rxerium
+  severity: info
+  description: This website has been seized by law enforcement
+  metadata:
+    max-request: 1
+    verified: true
+    shodan-query: title:"THIS WEBSITE HAS BEEN SEIZED"
+  tags: seized,miscellaneous
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+
+    matchers-condition: and
+    matchers:
+      - type: word
+        part: body
+        words:
+          - "THIS WEBSITE HAS BEEN SEIZED"
+        case-insensitive: true
+
+      - type: status
+        status:
+          - 200
+# digest: 490a004630440220577f5734f907cf91e5d8f04e8f0c5c21824992de98dc4eb09b999e34eb53207b02206d9adfdfe739412837de91e65d55ff4f71cf1b5fca778848590e2e12c3312149:922c64590222798bb761d5b6d8e72950

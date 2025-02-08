@@ -14986,7 +14986,7 @@ http:
         part: header
         name: zope
         words:
-          - "X-Powered-By: zope"
+          - "X-Powered-By: Zope"
 
       - type: word
         condition: and
@@ -15065,4 +15065,4 @@ http:
         words:
           - "x-dispatcher:"
         case-insensitive: true
-# digest: 4b0a00483046022100bc94744c796eb79eba218d1c041ec0e817654420bfc1a1c188d90dcfc8506dcc0221008763af93a66376ac9b4dbee14f6d8a1db56f84bfc29474faefd0f50ffd68ea6b:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a0047304502202733664321a3182875043318cce6c73f33cf5ff44226d0766516d12da9c3f0cf022100ea38cbc34b88a6e09c777b3e89cd0aea65d5bef037c1dfdb0b23a63ae5f47478:922c64590222798bb761d5b6d8e72950
